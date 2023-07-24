@@ -1,0 +1,27 @@
+{
+    "name": "kettasoft/packager",
+    "description": "Packager is a versatile toolset designed for PHP and Laravel developers to streamline the process of creating, setting up, and deploying new packages efficiently.",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kettasoft\\Packager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdalrhman Emad Saad",
+            "email": "kettasoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
