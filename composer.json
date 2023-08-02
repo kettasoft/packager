@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kettasoft\\Packager\\": "src/"
+            "Packager\\": "src/"
         }
     },
     "authors": [
